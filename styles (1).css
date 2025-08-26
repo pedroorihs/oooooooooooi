@@ -1,0 +1,111 @@
+/* Cores principais */
+:root {
+    --dourado: #FFD700;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --vermelho: #D32F2F;
+}
+
+/* Fonte padrão */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--vermelho);
+    color: var(--branco);
+}
+
+/* Header */
+header {
+    background-color: var(--preto);
+}
+
+.navbar-brand {
+    font-family: 'Rock Salt', cursive;
+    font-size: 2rem;
+    color: var(--dourado);
+}
+
+/* Seção de Início */
+.inicio {
+    background-image: url('img/queen-logo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.inicio h1 {
+    font-size: 4rem;
+    font-family: 'Rock Salt', cursive;
+}
+
+.inicio .btn-warning {
+    background-color: var(--dourado);
+    border: none;
+}
+
+/* Seção de Biografia */
+.biografia {
+    background-color: var(--vermelho);
+    padding: 4rem 0;
+}
+
+.biografia h2 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 3rem;
+}
+
+.biografia p {
+    font-size: 1.2rem;
+}
+
+/* Seção de Discografia */
+.discografia {
+    background-color: var(--preto);
+    padding: 4rem 0;
+}
+
+.card {
+    border: none;
+    background-color: var(--preto);
+    color: var(--branco);
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Seção de Contato */
+.contato {
+    background-color: var(--vermelho);
+    padding: 4rem 0;
+}
+
+.contato form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-control {
+    background-color: var(--branco);
+    color: var(--preto);
+}
+
+.btn-warning {
+    background-color: var(--dourado);
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: var(--preto);
+    color: var(--dourado);
+}
+
+footer p {
+    font-size: 1rem;
+}
+
